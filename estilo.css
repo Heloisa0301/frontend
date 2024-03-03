@@ -1,8 +1,8 @@
 body{
-    text-align:center;
+    text-align: center;
 }
 
 #cabecalho{
-    height: 300px;
-    background-color: blue;
+    height: 40px;
+    background-color: aquamarine;
 }
