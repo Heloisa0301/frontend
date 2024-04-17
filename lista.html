@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista</title>
+    <link rel="stylesheet" href="lista.css">
 </head>
 <body>
-    <div class="app">
-        <h1>Lista de Convidados</h1>
-
-        <input type="text" id="nome">
-      <button id="add">Adicionar</button>  
-
-      <ul id="lista"></ul>
+    <h1>Lista Simples</h1>
+    <div>
+        <input type="text" id="item">
+        <button id="add" onclick="adicionar()">Listar</button>
     </div>
-    <script src="js_lista.js"></script>
+    <ul id="lista"></ul>
+    <script src="lista.js"></script>
 </body>
 </html>
