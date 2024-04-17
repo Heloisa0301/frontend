@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="css_caluladora.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="num1" readonly>
+        <div class="teclas">
+            <button onclick="op('7')">7</button>
+            <button onclick="op('8')">8</button>
+            <button onclick="op('9')">9</button>
+            <button onclick="op('+')">+</button>
+
+            <button onclick="op('4')">4</button>
+            <button onclick="op('5')">5</button>
+            <button onclick="op('6')">6</button>
+            <button onclick="op('-')">-</button>
+
+            <button onclick="op('1')">1</button>
+            <button onclick="op('2')">2</button>
+            <button onclick="op('3')">3</button>
+            <button onclick="op('*')">*</button>
+
+            <button onclick="op('0')">0</button>
+            <button onclick="op('/')">/</button>
+            <button onclick="limpar()">C</button>
+            <button onclick="calc()">=</button>
+
+        </div>
+    </div>
+
+
+    <h2 id="resultado"></h2>
+
+    <script src="js_calculadora.js"></script>
+</body>
+</html>

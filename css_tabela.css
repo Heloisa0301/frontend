@@ -1,0 +1,37 @@
+.container{
+    width: 960px;
+    background-color: blueviolet;
+}
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        background-color: brown;
+    }
+}
+
+@media(max-width:400px){
+    .container{
+        width: 100%;
+        background-color:blue;
+    }
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: separate;
+    width: 100%;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+thead th{
+    background-color: rgb(95, 40, 196);
+}
+tr:nth-child(even) { 
+    background-color: #cfcfcf; 
+  }

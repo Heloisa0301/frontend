@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    width: 300px;
+}
+
+.teclas{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,79 @@
+/*CSS EXTERNO*/
+body{
+   margin: 0;
+   padding: 0;
+   background-color: beige ; 
+}
+
+/*quando uso id*/
+#cabecalho{
+    background-color: antiquewhite;
+    color:brown;
+    padding: 10px;
+}
+
+header{
+    background-color: antiquewhite;
+    color:brown;
+    padding: 10px;
+}
+
+/*quando uso class*/
+.navegacao{
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+}
+ .navegacao a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px;
+ }
+
+ .navegacao a:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+ }
+
+ nav{
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+ }
+
+ nav a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px;
+ }
+
+ nav a:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+ }
+
+ #conteudo-principal{
+    padding: 30px;
+    height: 350px;
+ }
+
+ main{
+    padding: 30px;
+    height: 350px;
+ }
+
+ #rodape{
+    background-color: antiquewhite;
+    color:brown; 
+    text-align: center;
+    padding: 10px;
+ }
+
+ footer{
+    background-color: antiquewhite;
+    color:brown; 
+    text-align: center;
+    padding: 10px;
+ }
